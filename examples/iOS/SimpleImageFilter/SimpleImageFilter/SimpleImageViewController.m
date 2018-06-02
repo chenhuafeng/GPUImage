@@ -30,22 +30,6 @@
     [self setupImageFilteringToDisk];
 }
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    if (interfaceOrientation == UIInterfaceOrientationPortrait)
-    {
-        return YES;
-    }
-    return NO;
-}
-
 
 - (IBAction)updateSliderValue:(id)sender
 {
