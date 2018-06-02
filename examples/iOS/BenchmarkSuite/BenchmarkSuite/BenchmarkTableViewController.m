@@ -36,11 +36,6 @@ typedef enum { GPUIMAGE_BENCHMARK_CPU, GPUIMAGE_BENCHMARK_COREIMAGE, GPUIMAGE_BE
     [self.tableView.tableHeaderView addSubview:benchmarkButton];
 }
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-}
-
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
@@ -61,11 +56,6 @@ typedef enum { GPUIMAGE_BENCHMARK_CPU, GPUIMAGE_BENCHMARK_COREIMAGE, GPUIMAGE_BE
     [super viewDidDisappear:animated];
 }
 
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
 
 #pragma mark - Table view data source
 

@@ -22,12 +22,7 @@
     [self displayVideoForCPU];
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
 
-#pragma mark -
 #pragma mark Video filtering
 
 - (void)startAVFoundationVideoProcessing;
