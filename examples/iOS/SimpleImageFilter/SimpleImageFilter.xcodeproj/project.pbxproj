@@ -210,7 +210,7 @@
 				ORGANIZATIONNAME = "Cell Phone";
 				TargetAttributes = {
 					BCB5E7E714E605A900701302 = {
-						DevelopmentTeam = 32M62TMXC7;
+						DevelopmentTeam = NC23GKVB2Q;
 					};
 				};
 			};
@@ -219,6 +219,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = BCB5E7DD14E605A900701302;
@@ -408,9 +409,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				DEVELOPMENT_TEAM = 32M62TMXC7;
+				DEVELOPMENT_TEAM = NC23GKVB2Q;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleImageFilter/SimpleImageFilter-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"../../../framework/Source/iOS/**",
+					../../../framework/Source,
+				);
 				INFOPLIST_FILE = "SimpleImageFilter/SimpleImageFilter-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunsetlakesoftware.${PRODUCT_NAME:rfc1034identifier}";
@@ -423,9 +428,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				DEVELOPMENT_TEAM = 32M62TMXC7;
+				DEVELOPMENT_TEAM = NC23GKVB2Q;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleImageFilter/SimpleImageFilter-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"../../../framework/Source/iOS/**",
+					../../../framework/Source,
+				);
 				INFOPLIST_FILE = "SimpleImageFilter/SimpleImageFilter-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunsetlakesoftware.${PRODUCT_NAME:rfc1034identifier}";
